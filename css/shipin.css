@@ -1,0 +1,220 @@
+@import url('base.css');
+@font-face {
+    font-family: 'iconfont';  /* project id 591011 */
+    src: url('https://at.alicdn.com/t/font_591011_f8scwonpuswkx1or.eot');
+    src: url('https://at.alicdn.com/t/font_591011_f8scwonpuswkx1or.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_591011_f8scwonpuswkx1or.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_591011_f8scwonpuswkx1or.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_591011_f8scwonpuswkx1or.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+}
+i{
+    font-style: normal;
+}
+header{
+    width: 100%;
+    height:1.34rem;
+    background: #d33d3c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.s-touxiang{
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.s-touxiang img{
+    width: 100%;
+}
+.sousuo{
+    width: auto;
+    height: auto;
+    position: relative;
+}
+.sou{
+    width: 7.7rem;
+    height: 0.95rem;
+    border-radius: 0.2rem;
+    padding:0 0.9rem;
+    color: #6d6d6d;
+    box-sizing: border-box;
+    outline: none;
+    position: relative;
+}
+.sou-text{
+    position: absolute;
+    left:0.27rem;
+    top:0.27rem;
+    display: flex;
+    justify-items: baseline;
+}
+.iconsou{
+    margin-right: 0.2rem;
+    color: #6d6d6d;
+}
+.xj{
+    text-align: center;
+}
+.fabu{
+    font-size: 0.14rem;
+    color: #fff;
+}
+.iconxj{
+    font-size: 0.5rem;
+    color: #fff;
+}
+/*header结束*/
+/*头部开始*/
+.toubu{
+    width: 100%;
+    height: 1.1rem;
+    border-bottom: 0.02rem solid #ccc;
+    line-height: 1.1rem;
+    overflow: hidden;
+}
+.w1{
+    margin: 0 0.3rem;
+}
+/*头部结束*/
+/*内容开始*/
+.neirong{
+    width:100%;
+    height: 7.5rem;
+}
+.n-pic{
+    width: 100%;
+    height: 6.06rem;
+    position: relative;
+}
+.n-pic img{
+    width: 100%;
+    height: 100%;
+}
+.n-wenzi{
+    width: 100%;
+    padding:0.4rem;
+    box-sizing: border-box;
+    position: absolute;
+    top:0;
+    left:0;
+    color: #fff;
+}
+.n1{
+    font-size: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+.touxiang{
+    width: 1.6rem;
+    height: 1.6rem;
+    border: 0.1rem solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    bottom: -0.3rem;
+    left:1rem;
+}
+.touxiang img{
+    width: 100%;
+}
+.play-bt{
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    line-height: 1.7rem;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+    margin:auto auto;
+}
+.iconbo{
+    font-size: 0.9rem;
+    color: #fff;
+}
+.play-time{
+    width: 1.7rem;
+    height: 0.7rem;
+    border-radius: 0.5rem;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    line-height: 0.7rem;
+    position: absolute;
+    bottom: 0.5rem;
+    right:0.3rem;
+    color: #fff;
+}
+.nei-bottom{
+    width: 100%;
+    height: 1.44rem;
+    padding:0 0.4rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.per{
+    flex-basis: 3rem;
+}
+.guanzhu.gjia{
+    width: 2rem;
+}
+.guanzhu{
+    width: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.jia{
+    width: 0.5rem;
+    height: 0.5rem;
+    border: 0.01rem solid #000;
+    border-radius: 0.1rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.iconjia{
+    font-size: 0.5rem;
+    color: #000;
+}
+.iconxin,.iconli{
+    font-size: 0.6rem;
+}
+.dakuang{
+    margin-bottom: 1.6rem;
+}
+footer{
+    width: 100%;
+    height: 1.6rem;
+    background: #fff;
+    border-top: 0.01rem solid #ccc;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+}
+.table-li{
+    text-align: center;
+}
+.active .icontb,.active .table-wenzi{
+    color: #fb6360;
+}
+.icontb{
+    font-size: 0.6rem;
+    color: #837c7a;
+}
+.table-wenzi{
+    margin-top: 0.2rem;
+    font-size: 0.3rem;
+    color: #837c7a;
+}
