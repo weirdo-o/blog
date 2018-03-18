@@ -22,10 +22,15 @@ i{
     background: #F2BCB9;
     line-height: 1.6rem;
     overflow: hidden;
+    display: flex;
+    justify-content: space-around;
 }
 .w1{
     color: #fff;
     margin: 0 0.3rem;
+}
+.iconsou{
+    color: #fff;
 }
 /*头部结束*/
 /*内容开始*/
@@ -154,7 +159,7 @@ footer{
     text-align: center;
 }
 .active .icontb,.active .table-wenzi{
-    color: #fb6360;
+    color: #F2BCB9;
 }
 .icontb{
     font-size: 0.6rem;

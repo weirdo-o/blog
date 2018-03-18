@@ -32,10 +32,19 @@ header {
   left: 0;
   z-index: -1;
 }
+.return{
+  display: block;
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+}
+.iconreturn{
+  font-size: 0.8rem;
+  color: #fff;
+}
 .touxiang {
   width: 100%;
   height: 2rem;
-  margin-top: 0.9rem;
+  margin-top: 0.6rem;
   display: flex;
   justify-content: space-between;
 }
@@ -217,32 +226,4 @@ header {
   font-size: 0.45rem;
   color: #999999;
 }
-footer{
-  width: 100%;
-  height: 1.6rem;
-  background: #fff;
-  border-top: 0.01rem solid #ccc;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  z-index: 999;
-}
-.table-li{
-  text-align: center;
-}
-.active .icontb,.active .table-wenzi{
-  color: #F2BCB9;
-}
-.icontb{
-  font-size: 0.6rem;
-  color: #837c7a;
-}
-.table-wenzi{
-  margin-top: 0.2rem;
-  font-size: 0.3rem;
-  color: #837c7a;
-}
+
