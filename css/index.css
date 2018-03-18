@@ -16,7 +16,7 @@ i{
 header{
     width: 100%;
     height:1.34rem;
-    background: #d33d3c;
+    background: #F2BCB9;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -237,7 +237,7 @@ footer{
     text-align: center;
 }
 .active .icontb,.active .table-wenzi{
-    color: #fb6360;
+    color: #F2BCB9;
 }
 .icontb{
     font-size: 0.6rem;

@@ -13,71 +13,18 @@
 i{
     font-style: normal;
 }
-header{
-    width: 100%;
-    height:1.34rem;
-    background: #d33d3c;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.s-touxiang{
-    display: block;
-    width: 1rem;
-    height: 1rem;
-    border-radius: 50%;
-    overflow: hidden;
-}
-.s-touxiang img{
-    width: 100%;
-}
-.sousuo{
-    width: auto;
-    height: auto;
-    position: relative;
-}
-.sou{
-    width: 7.7rem;
-    height: 0.95rem;
-    border-radius: 0.2rem;
-    padding:0 0.9rem;
-    color: #6d6d6d;
-    box-sizing: border-box;
-    outline: none;
-    position: relative;
-}
-.sou-text{
-    position: absolute;
-    left:0.27rem;
-    top:0.27rem;
-    display: flex;
-    justify-items: baseline;
-}
-.iconsou{
-    margin-right: 0.2rem;
-    color: #6d6d6d;
-}
-.xj{
-    text-align: center;
-}
-.fabu{
-    font-size: 0.14rem;
-    color: #fff;
-}
-.iconxj{
-    font-size: 0.5rem;
-    color: #fff;
-}
-/*header结束*/
+
 /*头部开始*/
 .toubu{
     width: 100%;
-    height: 1.1rem;
+    height: 1.6rem;
     border-bottom: 0.02rem solid #ccc;
-    line-height: 1.1rem;
+    background: #F2BCB9;
+    line-height: 1.6rem;
     overflow: hidden;
 }
 .w1{
+    color: #fff;
     margin: 0 0.3rem;
 }
 /*头部结束*/
